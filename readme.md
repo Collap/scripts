@@ -1,0 +1,1 @@
+The 'run' script builds collap-core and collap-std, so make sure you have set up both repositories correctly.
