@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ./tomcat/bin/shutdown.sh
 
 cd collap-core
