@@ -16,7 +16,7 @@ gradle build copyDependencies
 cd ..
 
 scripts/install_libs.sh
-scripts/copy_plugins.sh
+scripts/copy_modules.sh
 
 cd tomcat
 ./bin/startup.sh
