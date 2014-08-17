@@ -12,7 +12,11 @@ gradle build install copyDependencies tomcatCopy tomcatClean
 cd ..
 
 cd collap-std
-gradle build copyDependencies
+gradle build install copyDependencies
+cd ..
+
+cd ivp
+gradle build install copyDependencies
 cd ..
 
 scripts/install_libs.sh
