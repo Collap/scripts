@@ -2,10 +2,6 @@
 
 ./tomcat/bin/shutdown.sh
 
-cd jade4j
-gradle build install
-cd ..
-
 cd collap-core
 # 'install' command to add the api.jar to the local maven repository (for plugin development).
 gradle build install copyDependencies tomcatCopy tomcatClean
