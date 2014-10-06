@@ -11,3 +11,7 @@ cd ..
 cd ivp
 gradle idea
 cd ..
+
+cd examples
+gradle idea
+cd ..

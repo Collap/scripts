@@ -11,3 +11,11 @@ cd ..
 cd collap-std
 gradle clean
 cd ..
+
+cd ivp
+gradle clean
+cd ..
+
+cd examples
+gradle clean
+cd ..

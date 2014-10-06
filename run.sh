@@ -15,6 +15,10 @@ cd ivp
 gradle build install copyDependencies
 cd ..
 
+cd examples
+gradle build install copyDependencies
+cd ..
+
 scripts/install_libs.sh
 scripts/copy_modules.sh
 
