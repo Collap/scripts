@@ -2,20 +2,16 @@
 
 ./tomcat/bin/shutdown.sh
 
-cd collap-core
-# 'install' command to add the api.jar to the local maven repository (for plugin development).
+cd collap
+# 'install' command to add the api and std projects to the local maven repository (for plugin development).
 gradle build install copyDependencies tomcatCopy tomcatClean
 cd ..
 
-cd collap-std
+cd examples
 gradle build install copyDependencies
 cd ..
 
 cd ivp
-gradle build install copyDependencies
-cd ..
-
-cd examples
 gradle build install copyDependencies
 cd ..
 

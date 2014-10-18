@@ -1,17 +1,13 @@
 #!/bin/sh
 
-cd collap-core
-gradle idea
-cd ..
-
-cd collap-std
-gradle idea
-cd ..
-
-cd ivp
+cd collap
 gradle idea
 cd ..
 
 cd examples
+gradle idea
+cd ..
+
+cd ivp
 gradle idea
 cd ..
